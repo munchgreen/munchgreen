@@ -1,0 +1,706 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/*body {
+    line-height:1;
+}*/
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+h2
+{
+	text-align: center;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*This is my very own css code*/
+*{
+	box-sizing: border-box;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+body
+{
+	background-color: #DDA0DD;
+	width: 100%;
+}
+
+.banner nav 
+{/*
+	position: fixed;*/
+	width: 100%;
+	height: 70px;
+	background-image: url("img/baner2.png");
+	text-align: center;
+}
+.logo
+{
+	width: 150px;
+	float: left;
+}
+
+.banner nav p
+{
+	font-weight: 900;
+	font-size: 40px;
+	text-shadow: 2px 2px 5px black;
+	color: #E6E6FA;
+	line-height: 63px;/*
+	padding-right: 20px;*/
+}
+header nav
+{
+	width: 100%;
+	height: 60px;
+	background-color: #BA55D3;
+}
+header nav ul li
+{
+	float: left;
+	list-style: none;
+}
+header nav ul li a
+{
+	font-size: 14px;
+	text-shadow: 1px 1px 4px #8B008B;
+	color: #E6E6FA;
+	line-height: 60px;
+	padding-right: 20px;
+	text-align: right;
+	font-family: "Lucida Console";
+}
+.main-container
+{
+
+	background-color: #DDA0DD;
+}
+
+.padd
+{
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.academics
+{
+	height: 70px;
+	width: 100%;
+	font-size: 30px;
+	text-shadow: 1px 1px 2px black;
+	color: #8B008B;
+	line-height: 60px;
+	padding-left: 20px;
+	text-align: left;
+	font-family: "Lucida Console";
+}
+
+.aboutsection
+{
+	height: 80px;
+}
+
+.acadlist li .acadp
+{
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 50px;
+	color: #4B0082;
+	text-shadow: 1px 1px 1px white;
+	text-align: center;
+	font-family: "Lucida Console";
+	width: 400px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.sectionimage
+{
+	
+	margin-left: 20px;
+	margin-right: 20px;
+	background-image: url("img/clss.jpg");
+	height: 450px;
+}
+.videosection
+{
+}
+
+.acadlist li
+{
+	text-align: center;
+	display: inline;
+	padding-left: 40px;
+}
+
+
+.acadlist li img
+{
+	height: 10px;
+}
+
+
+.socialmedia
+{
+	height: 70px;
+	width: 100%;
+	font-size: 30px;
+	text-shadow: 1px 1px 2px black;
+	color: #8B008B;
+	line-height: 60px;
+	padding-left: 20px;
+	margin-bottom: 50px;
+	text-align: left;
+	font-family: "Lucida Console";
+}
+
+.socialdiv
+{
+	float: left;
+	padding-top: 10px;
+	background-image: url("img/socialedia.jpg");
+	width: 45%;
+	height: 570px;
+	margin-left: 30px;
+}
+.socialdiv2
+{
+	margin-right: 30px;
+	float: right;
+	padding-top: 10px;
+	background-image: url("img/internatioalschool.png");
+	width: 45%;
+	height: 570px;
+}
+.socialsection
+{
+	height: 600px;
+	background-image: url("img/f.jpg");
+}
+
+
+.socialsection div ul li 
+{
+	display: inline;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-right: 50px;
+
+}
+h5
+{
+	font-size: 15px;
+	text-shadow: 1px 1px 2px white;
+	color: #8B008B;
+	line-height: 30px;
+	padding-left: 50px;
+	text-align: left;
+	font-family: "Lucida Console";
+}
+
+
+
+
+/*footer address details*/
+
+.divfooter
+{
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.footerh1
+{
+	height: 70px;
+	width: 100%;
+	font-size: 30px;
+	text-shadow: 1px 1px 2px black;
+	color: #8B008B;
+	line-height: 60px;
+	padding-left: 20px;
+	text-align: left;
+	font-family: "Lucida Console";
+}
+
+.footerlist li .footerbutton
+{
+	font-size: 13px;
+	color: #4B0082;
+	text-shadow: 1px 1px 1px white;
+	text-align: left;
+	font-family: "Lucida Console";
+	width: 400px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.footerlist li .footerbuttontitle
+{
+	font-size: 15px;
+	color: black;
+	text-shadow: 1px 1px 1px white;
+	text-align: left;
+	font-family: "Lucida Console";
+	width: 400px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+
+
+.footerimage
+{
+	background-color: #D8BFD8;
+	line-height: 20px;
+}
+
+.footerlist li
+{
+	text-align: center;
+	display: inline;
+	padding-left: 40px;
+}
+
+
+.footerlist li img
+{
+	height: 10px;
+}
+
+
+.copyrightfooter
+{
+	width: 100%;
+	text-align: center;
+}
+
+
+/*icons*/
+.archiicon
+{
+	width: 50px;
+}
+
+/*carousel*/
+
+
+.carousel
+{
+	position: relative;
+	height: 530px;
+	width: 100%;
+}
+
+.slides
+{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.slide
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	font-size: 3em;
+	color: #E6E6FA;
+	text-shadow: 2px 2px 5px #8B008B;
+	line-height: 400px;
+	text-align: center;
+	opacity: 0;
+	font-weight: bold;
+	transition: opacity 1000ms;
+}
+.slide:nth-child(1)
+{
+	background-image: url("img/stud1nt.jpg");
+	background-size: cover;
+	opacity: 1;
+}
+.slide:nth-child(2)
+{
+	background-image: url("img/stude2t2.jpg");
+	background-size: cover;
+}
+.slide:nth-child(3)
+{
+	background-image: url("img/stude4t3.jpg");
+	background-size: cover;
+}
+.slide[data-state=active]
+{
+	display: block;
+}
+.indicators
+{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+.indicator
+{
+	cursor: pointer;
+}
+
+
+/*modal ask us*/
+
+
+.modal-container {
+  margin: 0 auto;
+  position: relative;
+  width: 50%;
+  float: left;
+
+}
+
+.modal-container button {
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  background: violet;
+  font-size: 22px;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 5px 5px -5px #333;
+  transition: background 0.3s ease-in;
+}
+
+.modal-container .modal-backdrop {
+  height: 0;
+  width: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity 0.2s ease-in;
+}
+
+.modal-container #modal-toggle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.modal-container #modal-toggle:hover ~ button { background: #4B0082; }
+/*
+.modal-container #modal-toggle:checked {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  opacity: 0;
+}*/
+
+.modal-container #modal-toggle:checked ~ .modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  pointer-events: none;
+  opacity: 1;
+}
+
+.modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content {
+  background-color: #fff;
+  max-width: 400px;
+  width: 100%;
+  height: 280px;
+  padding: 10px 30px;
+  position: absolute;
+  left: calc(50% - 200px);
+  top: 12%;
+  border-radius: 4px;
+  z-index: 999;
+  pointer-events: auto;
+  cursor: auto;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.6);
+}
+
+.modal-content
+{
+	width: 70%;
+}
+@media (max-width: 400px) {
+
+.modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content { left: 0; }
+}
+
+.modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close {
+  color: #666;
+  position: absolute;
+  right: 2px;
+  top: 0;
+  padding-top: 7px;
+  background: #fff;
+  font-size: 16px;
+  width: 25px;
+  height: 28px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close.button {
+  top: initial;
+  bottom: 20px;
+  right: 20px;
+  background: #4B0082;
+  color: #fff;
+  width: 50px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close.button:hover {
+  color: #fff;
+  background: #1E824C;
+}
+
+.modal-container #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close:hover { color: #333; }
+
+
+/*modal about us*/
+
+
+.modal-container2 {
+  margin: 0 auto;
+  position: relative;
+  width: 50%;
+  float: left;
+
+}
+
+.modal-container2 button {
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  background: violet;
+  font-size: 22px;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 5px 5px -5px #333;
+  transition: background 0.3s ease-in;
+}
+
+.modal-container2 .modal-backdrop2 {
+  height: 0;
+  width: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity 0.2s ease-in;
+}
+
+.modal-container2 #modal-toggle2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.modal-container2 #modal-toggle2:hover ~ button { background: #4B0082; }
+/*
+.modal-container #modal-toggle:checked {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  opacity: 0;
+}*/
+
+.modal-container2 #modal-toggle2:checked ~ .modal-backdrop2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  pointer-events: none;
+  opacity: 1;
+}
+
+.modal-container2 #modal-toggle2:checked ~ .modal-backdrop2 .modal-content2 {
+  background-color: violet;
+  max-width: 400px;
+  width: 100%;
+  height: 280px;
+  padding: 10px 30px;
+  position: absolute;
+  left: calc(50% - 200px);
+  top: 12%;
+  border-radius: 4px;
+  z-index: 999;
+  pointer-events: auto;
+  cursor: auto;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.6);
+}
+@media (max-width: 400px) {
+
+.modal-container2 #modal-toggle2:checked ~ .modal-backdrop2 .modal-content2 { left: 0; }
+}
+
+.modal-container2 #modal-toggle2:checked ~ .modal-backdrop2 .modal-content2 .modal-close2 {
+  color: #666;
+  position: absolute;
+  right: 2px;
+  top: 0;
+  padding-top: 7px;
+  background: #fff;
+  font-size: 16px;
+  width: 25px;
+  height: 28px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.modal-container2 #modal-toggle2:checked ~ .modal-backdrop2 .modal-content2 .modal-close2.button {
+  top: initial;
+  bottom: 20px;
+  right: 20px;
+  background: #4B0082;
+  color: #fff;
+  width: 50px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.modal-container2 #modal-toggle2:checked ~ .modal-backdrop2 .modal-content2 .modal-close2.button:hover {
+  color: #fff;
+  background: #1E824C;
+}
+
+.modal-container2 #modal-toggle2:checked ~ .modal-backdrop2 .modal-content2 .modal-close2:hover { color: #333; }
+
